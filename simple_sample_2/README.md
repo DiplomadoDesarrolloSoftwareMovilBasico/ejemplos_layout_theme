@@ -1,6 +1,6 @@
 # simple_sample_2
 
-Creación de lista en Flutter.
+Creación de lista en Flutter, modificar el main.dart para cambiar de ejemplos
 
 Lista estática
 

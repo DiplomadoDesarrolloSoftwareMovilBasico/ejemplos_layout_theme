@@ -1,5 +1,4 @@
-# Examples of the use of Themes and Layouts on Flutter 
-### Sesiones 4-6
+# Ejemplos de Widgets sin estado, con estado y themes en Flutter
 
 Doc: https://flutter.dev/docs/development/ui/layout
 
@@ -8,7 +7,12 @@ Doc: https://flutter.dev/docs/development/ui/layout
  <img src="simple_sample_1/2021-10-06-22-05-04.png" width="300" />
 
 - simple_sample_2: En este proyecto se muestran ejemplos de  list, listBuilders y otros widgets relacionados
+
+<img src="https://user-images.githubusercontent.com/28717626/136316275-99cb8da8-2ba6-4680-bd83-cf020ab6d468.gif" width="300" />
+
 - simple_sample_3: En este proyecto se muestra el uso de themes en Flutter
+
+<img src="https://user-images.githubusercontent.com/28717626/136317182-d1ccf1e3-8241-43ce-9e3b-681557d1de95.gif" width="300" />
   
 - simple_stopwatch: En este ejemplo mostramos cómo un Widget con estado puede ser usado para crear un cronómetro    
 
