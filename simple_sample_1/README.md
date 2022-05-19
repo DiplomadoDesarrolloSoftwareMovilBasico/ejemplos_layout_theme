@@ -1,6 +1,6 @@
 # simple_sample_1
 
-Ejemplo de flex expanded and fleible containers.
+Ejemplo de flex expanded and flexible containers.
 
 <img src="2021-10-06-22-05-04.png" width="300" />
 
