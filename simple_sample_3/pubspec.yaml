@@ -24,7 +24,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   flutter:
     sdk: flutter
-  get: ^4.3.8
+  get: ^4.6.3
   google_fonts: ^2.0.0
 
 dev_dependencies:
