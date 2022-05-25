@@ -2,6 +2,8 @@
 
 Doc: https://flutter.dev/docs/development/ui/layout
 
+Video explorando los ejemplos: https://uninorte-my.sharepoint.com/:v:/g/personal/augustosalazar_uninorte_edu_co1/EY0nmVYxSzhHkUpyZnl1CbsBROk0VvWZ_QSjKpg8H8Uuag?e=yfQOu7
+
 - simple_sample_1: En este proyecto se muestran ejemplos de expanded, flexible, columns y rows
 
  <img src="simple_sample_1/2021-10-06-22-05-04.png" width="300" />
