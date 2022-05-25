@@ -5,9 +5,11 @@ import 'text_styles.dart';
 class MyTheme {
   static ThemeData get ligthTheme {
     return ThemeData(
-      brightness: Brightness.light,
-      primarySwatch: AppColors.CreateMaterialColor(AppColors.primaryColor),
-      accentColor: AppColors.accentColor,
+      colorScheme: ColorScheme.fromSwatch(
+        brightness: Brightness.light,
+        primarySwatch: AppColors.CreateMaterialColor(AppColors.primaryColor),
+        accentColor: AppColors.accentColor,
+      ),
       fontFamily: AppTextStyle.fontFamily,
 
       elevatedButtonTheme: ElevatedButtonThemeData(
@@ -40,9 +42,11 @@ class MyTheme {
   // https://github.com/flutter/flutter/issues/19089
   static ThemeData get darkTheme {
     return ThemeData(
-      brightness: Brightness.dark,
-      primarySwatch: AppColors.CreateMaterialColor(AppColors.primaryColor),
-      accentColor: AppColors.accentColor,
+      colorScheme: ColorScheme.fromSwatch(
+        brightness: Brightness.dark,
+        primarySwatch: AppColors.CreateMaterialColor(AppColors.primaryColor),
+        accentColor: AppColors.accentColor,
+      ),
       toggleableActiveColor:
           AppColors.CreateMaterialColor(AppColors.primaryColor).shade500,
 

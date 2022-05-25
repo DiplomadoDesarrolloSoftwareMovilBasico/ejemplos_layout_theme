@@ -20,8 +20,8 @@ class MyApp extends StatelessWidget {
       ),
       //home: SimpleList(),
       //home: ListBuilder()
-      home: DynamicList(),
-      //home: StylizedCard(),
+      //home: DynamicList(),
+      home: StylizedCard(),
     );
   }
 }

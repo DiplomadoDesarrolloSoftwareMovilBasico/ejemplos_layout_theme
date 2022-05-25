@@ -11,10 +11,23 @@ class SimpleList extends StatelessWidget {
       ),
       body: ListView(
         padding: EdgeInsets.all(8),
-        children: <Widget>[
+        children: [
           row(600, 'Entry A'),
           row(500, 'Entry B'),
           row(100, 'Entry C'),
+          row(50, 'Entry D'),
+          row(600, 'Entry A'),
+          row(500, 'Entry B'),
+          row(100, 'Entry C'),
+          row(50, 'Entry D'),
+          row(600, 'Entry A'),
+          row(500, 'Entry B'),
+          row(100, 'Entry C'),
+          row(50, 'Entry D'),
+          row(600, 'Entry A'),
+          row(500, 'Entry B'),
+          row(100, 'Entry C'),
+          row(50, 'Entry D'),
         ],
       ),
     );
@@ -28,7 +41,7 @@ class SimpleList extends StatelessWidget {
       child: Padding(
         padding: const EdgeInsets.all(8.0),
         child: Text(
-          '$text',
+          text,
           style: TextStyle(fontSize: 22.0),
         ),
       ),

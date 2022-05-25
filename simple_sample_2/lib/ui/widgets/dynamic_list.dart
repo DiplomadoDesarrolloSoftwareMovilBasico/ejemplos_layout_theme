@@ -32,7 +32,7 @@ class _DynamicListState extends State<DynamicList> {
         },
       ),
       floatingActionButton: FloatingActionButton(
-        onPressed: () => setState(() => {onPressed()}),
+        onPressed: () => onPressed(),
         tooltip: 'Increment Counter',
         child: const Icon(Icons.add),
       ),
